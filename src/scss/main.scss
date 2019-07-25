@@ -1,9 +1,19 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
 
 
 html {
   box-sizing: border-box;
+  background: url('http://wes.io/hx9M/oh-la-la.jpg') center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 *,
